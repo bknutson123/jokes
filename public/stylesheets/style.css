@@ -1,0 +1,49 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: gray;
+}
+h1 {
+  text-align: center;
+}
+.parent {
+  text-align: center;
+  background-color: green;
+}
+
+.jokes {
+  text-align: center;
+}
+
+Button {
+	background-color: black;
+	color: white;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	cursor:pointer;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	margin-bottom: 20px;
+	width: 100%;
+
+}
+#generalprogrammingjokegenerator:hover {
+	background-color: red;
+}
+#chucknorisjokegenerator:hover {
+  background-color: white;
+  color: black;
+}
+#dadjokegenerator:hover {
+  background-color: blue;
+}
+Button:active {
+	position:relative;
+	top:1px;
+}
+#punchline {
+  text-align: center;
+}
+
+
